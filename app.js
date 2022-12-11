@@ -3,7 +3,7 @@ const fs = require("fs");
 const { url } = require('inspector');
 
 const hostname = '127.0.0.1';
-const port = 80;
+const port = 8080;
 let indexPage = (req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
